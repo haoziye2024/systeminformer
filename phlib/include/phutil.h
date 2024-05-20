@@ -1861,6 +1861,7 @@ PhHungWindowFromGhostWindow(
 
 PHLIBAPI
 NTSTATUS
+NTAPI
 PhGetFileData(
     _In_ HANDLE FileHandle,
     _Out_ PVOID* Buffer,
